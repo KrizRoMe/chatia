@@ -6,8 +6,8 @@ function ChatPage() {
 	// UI Reference: https://v0.dev/chat/macos-terminal-chat-5uo46d3RN0l
 
 	return (
-		<div className="flex items-center justify-center min-h-screen bg-[#121212] p-4">
-			<div className="w-full max-w-3xl bg-[#1e1e1e] text-gray-300 rounded-lg shadow-xl overflow-hidden border border-gray-700">
+		<div className="flex items-center justify-center min-h-screen p-4">
+			<div className="w-full max-w-3xl bg-card text-card-foreground rounded-lg shadow-xl overflow-hidden border">
 				<ChatHeader />
 				<ChatMessageArea />
 				<ChatInputArea />
