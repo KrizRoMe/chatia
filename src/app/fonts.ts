@@ -1,13 +1,13 @@
-import { Inter, Fira_Code } from 'next/font/google'
+import { Fira_Code, Inter } from "next/font/google";
 
 export const inter = Inter({
-  variable: '---font-inter',
-  subsets: ['latin'],
-  display: 'swap',
-})
+	variable: "---font-inter",
+	subsets: ["latin"],
+	display: "swap",
+});
 
 export const fira_code = Fira_Code({
-  variable: '---font-fira-code',
-  subsets: ['latin'],
-  display: 'swap',
-})
+	variable: "---font-fira-code",
+	subsets: ["latin"],
+	display: "swap",
+});
